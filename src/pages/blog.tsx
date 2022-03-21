@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
+import SearchEngineOptimization from "../components/SearchEngineOptimization/SearchEngineOptimization";
 import { graphql } from "gatsby";
 import BlogCard from "../components/BlogCard/BlogCard";
 
@@ -29,10 +30,11 @@ export default function BlogPage(props: Props) {
 
   return (
     <Layout>
+      <SearchEngineOptimization title="Blog" />
       <div className="container max-w-3xl min-h-screen p-5 text-center">
         <h2>Blog</h2>
         <p>I post all my works, ctfs, and thoughts here.</p>
-        <p>Have a great read ahead!</p>
+        <p>Hope we get to know each other!</p>
         <div className="flex flex-col gap-5 pt-5">
           {blogPosts.map((blogPost) => (
             <BlogCard key={blogPost.id} to={"/blog/" + blogPost.frontmatter.category + "/" + blogPost.frontmatter.slug} title={blogPost.frontmatter.title} date={blogPost.frontmatter.date} description={blogPost.frontmatter.description} category={blogPost.frontmatter.category} />

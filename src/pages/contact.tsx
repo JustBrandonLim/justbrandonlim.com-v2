@@ -1,10 +1,11 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
-import { Link } from "gatsby";
+import SearchEngineOptimization from "../components/SearchEngineOptimization/SearchEngineOptimization";
 
 export default function ContactPage() {
   return (
     <Layout>
+      <SearchEngineOptimization title="Contact" />
       <div className="container max-w-3xl min-h-screen p-5 text-center">
         <h2>Contact</h2>
         <p>Are you interested in working with me?</p>

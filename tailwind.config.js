@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         poppins: ["'Poppins', sans-serif", ...defaultTheme.fontFamily.sans],
         "dm-mono": ["'DM Mono', monospace", ...defaultTheme.fontFamily.mono],
-        sora: ["'Epilogue', sans-serif", ...defaultTheme.fontFamily.sans],
+        "noto-sans-display": ["'Noto Sans Display', sans-serif", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         purple: "#6366f1",

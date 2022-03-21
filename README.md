@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my portfolio website written in GatsbyJS, with TailwindCSS.
+This is my portfolio website written with **GatsbyJS** and **TailwindCSS**.
 
 It is a Single Page Application website with a blog and contact us.
 
@@ -20,10 +20,10 @@ It is a Single Page Application website with a blog and contact us.
 
      - This section contains a few of my featured works done previously.
 
-2. ### Blog
-
-   - This page contains all the blog posts that I have posted.
-
-3. ### Contact
+2. ### Contact
 
    - This page contains a form to contact me.
+
+3. ### Blog
+
+   - This page contains all the blog posts that I have posted.
