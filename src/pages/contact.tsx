@@ -12,7 +12,7 @@ export default function ContactPage() {
         <p>Let's create something amazing together.</p>
         <div className="p-5 mt-5 text-left rounded-md shadow-lg bg-light-gray">
           <form method="post" data-netlify="true" name="contact" className="flex flex-col items-stretch gap-5 p-5">
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
 
             <label htmlFor="firstName" className="font-bold">
               First Name <span className="text-rose-500">*</span>
