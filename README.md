@@ -1,54 +1,87 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# Portfolio
 
-## 🚀 Quick start
+This is my portfolio website written in GatsbyJS, with TailwindCSS.
 
-1.  **Create a Gatsby site.**
+It is a Single Page Application website with a blog and contact us.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## Pages
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+1. ### Home
 
-2.  **Start developing.**
+   - Home
 
-    Navigate into your new site’s directory and start it up.
+     - This section contains the landing of the website.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   - About
 
-3.  **Open the code and start customizing!**
+     - This section contains a short write up of myself.
 
-    Your site is now running at http://localhost:8000!
+   - Works
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+     - This section contains a few of my featured works done previously.
 
-4.  **Learn more**
+2. ### Blog
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+   - This page contains all the blog posts that I have posted.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+3. ### Contact
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+   - This page contains a form to contact me.
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## Specifications
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+1. ### Typography
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+   - Brand
 
-## 🚀 Quick start (Gatsby Cloud)
+     - `font-dm-mono`, `text-slate-900`, `font-bold`, `text-3xl`
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+   - Headings
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+     - `font-poppins`, `text-slate-900`, `font-bold`
+     - H1
+       - `text-3xl`
+     - H2
+       - `text-3xl`
+
+   - Body
+
+     - `font-poppins`, `text-slate-700`, `text-base`
+
+2. ### Components
+
+   - NavBar
+
+     - `font-poppins`, `text-slate-900`, `text-base`, `hover:text-sky-500`
+
+```javascript
+    slate: {
+        css: {
+        '--tw-prose-body': colors.slate[700],
+        '--tw-prose-headings': colors.slate[900],
+        '--tw-prose-lead': colors.slate[600],
+        '--tw-prose-links': colors.slate[900],
+        '--tw-prose-bold': colors.slate[900],
+        '--tw-prose-counters': colors.slate[500],
+        '--tw-prose-bullets': colors.slate[300],
+        '--tw-prose-hr': colors.slate[200],
+        '--tw-prose-quotes': colors.slate[900],
+        '--tw-prose-quote-borders': colors.slate[200],
+        '--tw-prose-captions': colors.slate[500],
+        '--tw-prose-code': colors.slate[900],
+        '--tw-prose-pre-code': colors.slate[200],
+        '--tw-prose-pre-bg': colors.slate[800],
+        '--tw-prose-th-borders': colors.slate[300],
+        '--tw-prose-td-borders': colors.slate[200],
+        },
+    },
+```
+
+```javascript
+{
+    purple: "#6366f1",
+    blue: "#519df3",
+    "light-purple": "#b496fa",
+    "light-blue": "#cae2fe",
+}
+```
