@@ -2,7 +2,7 @@
 
 This is my portfolio website written with **GatsbyJS** and **TailwindCSS**.
 
-It is a Single Page Application website with a blog and contact us.
+It is a Single Page Application website with a contact and blog page.
 
 ## Pages
 
