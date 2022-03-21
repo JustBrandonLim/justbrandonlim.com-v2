@@ -34,7 +34,7 @@ export default function HomePage(props: Props) {
     <Layout>
       <SearchEngineOptimization title="Portfolio" />
       <div className="container max-w-3xl min-h-screen p-5 my-auto text-center">
-        <StaticImage src="../images/brandon-lim.png" placeholder="blurred" width={350} quality={100} alt="Brandon Lim" className="rounded-full shadow-lg" />
+        <StaticImage src="../images/brandon-lim.png" placeholder="blurred" width={350} quality={100} alt="Brandon Lim" className="rounded-full shadow-lg" imgClassName="rounded-full shadow-lg" />
         <p className="pt-5">
           Hello! I am <span className="inline-block font-bold animate-bounce text-rose-500">Brandon</span>, a software engineer based in Singapore.
         </p>
@@ -68,8 +68,8 @@ export default function HomePage(props: Props) {
       </div>
       <div id="about" className="container max-w-3xl p-5 text-center">
         <h2>About</h2>
-        <p>Having written my first line of code since I was 12, I have garnered a lot of knowledge and experience in the world of Information Technology as a software engineer.</p>
-        <p className="p-5"> In the first quarter of 2022, I co-founded my own company named Beeware, providing businesses with digital solutions.</p>
+        <p>Having written my first line of code at the age of 12, I have garnered a lot of knowledge and experience in the world of Information Technology as a software engineer.</p>
+        <p className="p-5"> In the first quarter of 2022, I co-founded my company, Beeware, to provide businesses with digital solutions.</p>
         <p>I am currently a student studying at Singapore Institute of Technology pursuing my degree in BE in Informations and Communications Technology (Software Engineering).</p>
       </div>
       <div id="works" className="container max-w-3xl p-5 text-center">
